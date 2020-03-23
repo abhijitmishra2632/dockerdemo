@@ -4,5 +4,6 @@ docker ps
 
 Add existing proj to git:
 1.git init inside the folder, will create a .git folder
+git add .
 git config
 git remote add origin https://github.com/abhijitmishra2632/dockerdemo.git
