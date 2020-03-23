@@ -1,0 +1,8 @@
+docker image build -t app1 .
+docker run --name test1 -p 8085:8085 app1
+docker ps
+
+Add existing proj to git:
+1.git init inside the folder, will create a .git folder
+git config
+git remote add origin https://github.com/abhijitmishra2632/dockerdemo.git
