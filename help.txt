@@ -1,4 +1,5 @@
 docker image build -t app1 .
+docker build -f Dockerfile -t app1 .
 docker run --name test1 -p 8085:8085 app1
 docker ps
 
